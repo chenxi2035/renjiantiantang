@@ -15,8 +15,8 @@ hero:
       target: _blank
       rel: alternate
     - theme: alt
-      text: 微软OneDrive
-      link: https://1drv.ms/f/s!AikNJr9BDp-NbSzmMCLbPRHjX0c
+      text: Google Drive
+      link: https://drive.google.com/drive/folders/17AKT7obPZJ8YsYMNPreroW3H8LMs6V6o?usp=sharing
       target: _blank
       rel: alternate
     # - theme: alt
