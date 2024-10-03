@@ -5,6 +5,7 @@ pageClass: home-page
 hero:
   name: 共建人间天堂
   image: /cover.png
+  tagline: 创造者们的讯息在网盘中，请自行下载阅读
   actions:
     - theme: brand
       text: 开始阅读 (推荐)
