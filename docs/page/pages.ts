@@ -1,4 +1,4 @@
-export const siteBase = "/"
+export const siteBase = "/renjiantiantang/"
 export const notFoundTitle = "迷时师度，悟了自度"
 //触发vercel部署
 
