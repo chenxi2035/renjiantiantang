@@ -78,7 +78,7 @@ function iframeload() {
           let lheight = Math.max(cHeight, sHeight);
           let finalHeight = Math.max(lheight, aWindowHeight );
           // this.iframeHeight = finalHeight + "px";
-          let h = (finalHeight+20) + "px";//多加一点高度，免得出现纵向滚动条
+          let h = (finalHeight+50) + "px";//多加一点高度，免得出现纵向滚动条
           cIframe.height = h;
           console.log(`frame height=${h}`)
           loaded.value = true
