@@ -6,7 +6,7 @@ layout: doc
   <div v-if="!loaded" class="loading-info">
     <Loading2/>
     <div v-if="showTip"  style="margin-top: 20px;">
-      如页面有缩进问题，可访问此站：<a href="https://chenxi2035.great-site.net" style="color: #1764ff;">共建人间天堂</a>
+      如页面有缩进问题，可访问此站：<a href="https://chenxi2035.github.io/rjtt/" style="color: #1764ff;">共建人间天堂</a>
     </div>
   </div>
   <iframe id="outerPage" :src="pageLink" @load="iframeload" scrolling="auto" frameborder="0"   :style="frameStyle"></iframe>
