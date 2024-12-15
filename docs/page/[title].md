@@ -5,9 +5,6 @@ layout: doc
 <div style="width:100%;display:flex;align-items:center;flex-direction:column">
   <div v-if="!loaded" class="loading-info">
     <Loading2/>
-    <div v-if="showTip"  style="margin-top: 20px;">
-      如页面有缩进问题，可访问此站：<a href="https://chenxi2035.github.io/rjtt/" style="color: #1764ff;">共建人间天堂</a>
-    </div>
   </div>
   <iframe id="outerPage" :src="pageLink" @load="iframeload" scrolling="auto" frameborder="0"   :style="frameStyle"></iframe>
 </div>
@@ -60,9 +57,9 @@ watch(loaded,async(n,o)=>{
 
 onMounted(()=>{
   document.title=`${title}-共建人间天堂`
-  let currentUrl = window.location.href;
-  console.log(currentUrl);
-  showTip.value = currentUrl.includes("renjiantiantang") || currentUrl.includes("vercel");
+  // let currentUrl = window.location.href;
+  // console.log(currentUrl);
+  // showTip.value = currentUrl.includes("renjiantiantang") || currentUrl.includes("vercel");
   // showTip.value = showTip.value || currentUrl.includes("localhost");
 })
 
