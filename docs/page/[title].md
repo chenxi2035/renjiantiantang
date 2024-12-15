@@ -109,7 +109,7 @@ function iframeload() {
   height:200px;
   align-items: center;
   justify-content: center;
-  flex-direction:column
+  flex-direction:column;
 }
 
 
