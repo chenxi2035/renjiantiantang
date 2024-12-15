@@ -62,7 +62,7 @@ onMounted(()=>{
   document.title=`${title}-共建人间天堂`
   let currentUrl = window.location.href;
   console.log(currentUrl);
-  showTip.value = currentUrl.includes("git") || currentUrl.includes("vercel");
+  showTip.value = currentUrl.includes("renjiantiantang") || currentUrl.includes("vercel");
   // showTip.value = showTip.value || currentUrl.includes("localhost");
 })
 

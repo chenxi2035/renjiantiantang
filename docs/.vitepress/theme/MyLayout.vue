@@ -15,8 +15,8 @@
                     本文档使用 <a href="https://vitepress.dev/zh/" style="color: #1764ff;">VitePress</a> 生成
                 </div>
                 <div class="author">制作——晨曦</div>
-                <div class="tip" v-if="showTip" style="margin-top: 10px;">
-                    该页面有缩进问题，可访问此站：<a href="https://chenxi2035.great-site.net" style="color: #1764ff;">共建人间天堂</a>
+                <div class="tip" v-if="showTip">
+                    该页面有缩进问题，可访问此站：<a href="https://chenxi2035.github.io/rjtt/" style="color: #1764ff;">共建人间天堂</a>
                 </div>
                 <div class="extra" v-html="extra" v-if="extra"></div>
             </div>
@@ -42,8 +42,9 @@ onMounted(() => {
     }
     console.log(currentUrl);
     console.log(typeof(currentUrl))
-    showTip.value = currentUrl.includes("git") || currentUrl.includes("vercel");
+    showTip.value = currentUrl.includes("renjiantiantang") || currentUrl.includes("vercel");
     // showTip.value = showTip.value || currentUrl.includes("localhost");
+    console.log(`MyLayout ${showTip.value}`);
 })
 let pageData = page.value;
 console.log(pageData)
