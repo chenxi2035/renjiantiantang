@@ -62,6 +62,7 @@ function iframeload() {
         try {
           const cIframe = document.getElementById("outerPage");
           let aWindow = cIframe.contentWindow;
+          aWindow.fullUrl = window.location.href;
           let aWindowHeight =
             aWindow .document.documentElement.scrollHeight ||
             aWindow .document.body.scrollHeight;
