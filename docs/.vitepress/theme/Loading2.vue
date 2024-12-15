@@ -12,29 +12,10 @@
             <span style="--i:9;"></span>
             <span style="--i:10;"></span>
         </div>
-        <div v-if="showTip"  style="margin-top: 20px;">
-            如页面有缩进问题，可访问此站：<a href="https://chenxi2035.great-site.net" style="color: #1764ff;">共建人间天堂</a>
-        </div>
         <!-- <div>吾生也有涯，而知也无涯。以有涯随无涯，殆已。</div> -->
     </div>
   
 </template>
-
-<script setup>
-import { onMounted,ref,reactive } from 'vue'
-import { useData } from 'vitepress'
-const showTip = ref(false)
-onMounted(() => {
-    let currentUrl = window.location.href;
-    if(!currentUrl.startsWith("http")){
-        currentUrl = window.fullUrl;
-    }
-    console.log(currentUrl);
-    console.log(typeof(currentUrl))
-    showTip.value = currentUrl.includes("git") || currentUrl.includes("vercel");
-    // showTip.value = showTip.value || currentUrl.includes("localhost");
-})
-</script>
 
 <style scoped>
 .loading{
