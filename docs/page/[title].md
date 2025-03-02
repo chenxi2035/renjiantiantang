@@ -23,6 +23,7 @@ const frameStyle=reactive({
   width:'100%',
   'min-width':'100%',
   'min-height':'200px',
+  'font-size':'18px',
 })
 const showTip = ref(false)
 
@@ -109,5 +110,8 @@ function iframeload() {
   flex-direction:column;
 }
 
+div {
+  font-size:18px;
+}
 
 </style>
