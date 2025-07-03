@@ -14,10 +14,7 @@
                 <div class="vitepress">
                     本文档使用 <a href="https://vitepress.dev/zh/" target="_blank" style="color: #1764ff;">VitePress</a> 生成
                 </div>
-                <div class="vitepress">
-                    GitHub: <a href="https://github.com/chenxi2035/renjiantiantang" target="_blank" style="color: #1764ff;">renjiantiantang</a>
-                </div>
-                <div class="author">制作——晨曦</div>
+                <div class="author"><a href="https://github.com/chenxi2035/renjiantiantang" target="_blank" style="color: #1764ff;">制作——晨曦</a></div>
                 <div class="extra" v-html="extra" v-if="extra"></div>
             </div>
         </template>
