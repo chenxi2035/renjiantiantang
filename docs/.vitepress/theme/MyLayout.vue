@@ -8,10 +8,13 @@
         </template>
         <template #layout-bottom>
             <div class="bottom-info">
-                <div class="vitepress">
-                    阅读创造们的讯息，请自行下载：<a href="https://www.ilanzou.com/s/6YNp11M" target="_blank" style="color: #1764ff;">蓝奏云</a>，<a href="https://drive.google.com/drive/folders/1k9wFKt1ins9GeHTnkwT_rahPrpOZKtkA?usp=sharing" style="color: #1764ff;">Google Drive</a>
+                <div>
+                    阅读创造们的讯息，请自行下载：
                 </div>
-                <div class="vitepress">
+                <div>
+                    <a href="https://www.ilanzou.com/s/6YNp11M" target="_blank" style="color: #1764ff;">蓝奏云</a>，<a href="https://drive.google.com/drive/folders/1k9wFKt1ins9GeHTnkwT_rahPrpOZKtkA?usp=sharing" style="color: #1764ff;">Google Drive</a>
+                </div>
+                <div>
                     本文档使用 <a href="https://vitepress.dev/zh/" target="_blank" style="color: #1764ff;">VitePress</a> 生成
                 </div>
                 <div class="author"><a href="https://github.com/chenxi2035/renjiantiantang" target="_blank" style="color: #1764ff;">制作——晨曦</a></div>
@@ -80,5 +83,9 @@ if(pageData.isNotFound){
     font-size: 14px;
     padding-left: 15px;
     padding-right: 15px;
+
+    div{
+        font-size: 14px;
+    }
 }
 </style>
